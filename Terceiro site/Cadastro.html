@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+
+    <form class="formulario">
+
+        <h1 class="titulo">Preencha todos os campos para cadastrar-se</h1>
+    </br>
+    </br>
+        <label class="espacamento" id="ortografia">Preencha com seu nome:</label>
+    </br>
+    </br>
+        <input class="textou" type="text" name="Nome" placeholder="Nome" required>
+    </br>
+    </br>
+        <label class="espacamento" id="textou">Preencha com seu sobrenome:</label>
+    </br>
+    </br>
+        <input class="textou" type="text" name="Sobrenome" placeholder="Sobrenome" required>
+    </br>
+    </br>
+        <label class="espacamento">Preencha com sua data de nascimento:</label>
+    </br>
+    </br>
+
+        <input class="textou" type="date" name="Nascimento" required>
+    </br>
+    </br>
+        <label class="espacamento">Preencha com seu genêro:</label>
+    </br>
+    </br>
+        <input type="radio" name="Genêro" class="generos" required> <label for="Genêro">Masculino</label>
+        <input type="radio" name="Genêro" class="generos" required> <label for="Feminino">Feminino</label>
+    </br>
+    </br>
+        <label class="espacamento">Preencha com seu numero de telefone:</label>
+    </br>
+    </br>
+        <input class="textou" type="tel" name="Telefone" placeholder="Numero de telefone" required>
+    </br>
+    </br>
+        <label class="espacamento">Preencha com seu endereço</label>
+    </br>
+    </br>
+        <input class="textou" id="espacinho" type="text" name="Endereço" placeholder="Endereço" required>
+    </br>
+    </br>
+        <input class="textou" id="espacinho" type="text" name="Complemento" placeholder="Complemento" required>
+    </br>
+    </br>
+        <input class="textou" id="espacinho" type="number" name="Numero da casa" placeholder="Numero" required>
+    </br>
+    </br>
+
+        <label class="espacamento">Termos de Responsabilidade</label>
+    </br>
+    </br>
+        <input type="checkbox" name="Ofertas" id="Ofertas"> <label for="Ofertas">Deseja receber nossas melhores ofertas sempre?</label>
+    </br>
+        <input type="checkbox" name="Termos" required> <label for="Termos">Concordo em colocar meus dados.</label>
+    </br>
+    </br>
+        <input type="submit" name="Enviar" value="Enviar" class="enviar">
+    </form>
+</body>
+</html>
