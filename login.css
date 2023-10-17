@@ -43,14 +43,22 @@ body {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 1135px) {
+@media screen and (max-width: 1136px) {
 .logando, .login {
-    width: 50%;
+    width: 80%;
     border: solid white;
     text-align: center;
-    margin-top: 20;
-
+    margin-top: 0%;
 }
 
+body {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.botao {
+    width: 50%;
+}
 }
     
