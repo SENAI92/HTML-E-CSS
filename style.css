@@ -77,10 +77,11 @@ body {
     }
 
 /*Redimensão da tela*/
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 900px) {
             header, section, footer {
             width: 100%;
-            text-align: center;}
+            text-align: center;
+        }
         }
         
         @media screen and (max-width: 650px) {
