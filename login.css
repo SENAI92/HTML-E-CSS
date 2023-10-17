@@ -1,0 +1,56 @@
+body {
+    background-color: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.login {
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 30%;
+    height: 700px;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+}
+
+.logando {
+    border: solid white;
+    border-radius: 20px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.esqueceu {
+    margin-left: 20px;
+}
+
+.botao {
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1135px) {
+.logando, .login {
+    width: 50%;
+    border: solid white;
+    text-align: center;
+    margin-top: 20;
+
+}
+
+}
+    

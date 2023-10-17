@@ -1,0 +1,40 @@
+body {
+    background-color: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 190%;
+    text-align: center;
+}
+
+section {
+margin-top: 15%;
+border: solid whitesmoke;
+background-color: whitesmoke;
+border-radius: 20px;
+width: 90%;
+height: 300px;
+text-align: center;
+margin-left: 70px;
+}
+
+.email {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.enviar {
+border: 1px solid black;
+background-color: white;
+border-radius: 20px;
+width: 20%;
+margin-left: 30px;
+font-size: 15px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
