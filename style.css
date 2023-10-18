@@ -77,14 +77,24 @@ body {
     }
 
 /*Redimensão da tela*/
-        @media screen and (max-width: 900px) {
-            header, section, footer {
-            width: 100%;
+        @media screen and (max-width: 1035px) {
+        .quadrado_1 {
+        width: 98%;
+           }
+
+           img {
+            width: 40%;
+           }
+
+           .tabela2 {
+            width: 88%;
             text-align: center;
+            display: inline-block;
+            padding: 5px;
+           }
         }
-        }
-        
-        @media screen and (max-width: 650px) {
+
+        @media screen and (max-width: 700px) {
             header {
             width: 100%;
             }
@@ -98,7 +108,9 @@ body {
                 width: 60%;
             }
 
-            footer {
-                width: 78%;
+            .tabela2 {
+                width: 50%;
+                text-align: center;
+                padding: 5px;
             }
         }
