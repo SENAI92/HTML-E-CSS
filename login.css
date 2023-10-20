@@ -16,7 +16,7 @@ body {
     border-radius: 20px;
     width: 30%;
     height: 700px;
-    margin-left: 35%;
+    margin: 0 auto;
     margin-top: 5%;
     
 }
@@ -48,7 +48,7 @@ body {
     width: 100%;
     border: solid white;
     text-align: center;
-    margin-top: 0%;
+    margin-left: 35%;
 }
 
 .logando {
@@ -57,12 +57,11 @@ body {
 
 body {
     width: 50%;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 0 auto;
+    margin: 10%;
 }
 
 .botao {
     width: 50%;
 }
 }
-    
