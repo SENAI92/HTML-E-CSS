@@ -16,6 +16,7 @@ margin-top: 30px;
 
 .corpocabecalho {
     display: inline;
+    padding: 40px;
     /*padding: 50px;*/
 }
 body {
@@ -82,8 +83,14 @@ body {
 
 /*Redimensão da tela*/
         @media screen and (max-width: 1035px) {
-        .quadrado_1 {
-        width: 98%;
+        header {
+            width: 99%;
+            margin: 0 auto;
+        }
+        
+            .quadrado_1 {
+        width: 97%;
+        margin: 0 auto;
            }
 
            img {
@@ -91,7 +98,7 @@ body {
            }
 
            .tabela2 {
-            width: 88%;
+            width: 84%;
             text-align: center;
             display: inline-block;
             padding: 5px;
@@ -101,26 +108,38 @@ body {
             display: block;
         }
 
+        footer {
+            width: 88%;
+            margin: 0 auto;
+        }
         .video {
-            width: 70%;
-            margin-left: 15%;
+            width: 100%;
+            margin: 0 auto;
         }
         }
 
-        @media screen and (max-width: 700px) {
-            header, .video {
+        @media screen and (max-width: 795px) {
+            header {
             width: 100%;
+            }
+
+            .video {
+                width: 100%;
             }
 
             .quadrado_1 {
                 width: 98%;
-                margin-left: 0px;
+                margin: 0 auto;
             }
 
             img {
                 width: 60%;
             }
 
+            footer {
+                width: 85%;
+                margin: 0 auto;
+            }
             .tabela2 {
                 width: 50%;
                 text-align: center;
