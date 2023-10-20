@@ -44,11 +44,15 @@ body {
 }
 
 @media screen and (max-width: 1136px) {
-.logando, .login {
-    width: 80%;
+ .login {
+    width: 100%;
     border: solid white;
     text-align: center;
     margin-top: 0%;
+}
+
+.logando {
+    width: 80%;
 }
 
 body {
