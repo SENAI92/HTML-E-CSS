@@ -76,6 +76,10 @@ body {
         text-decoration: none;
     }
 
+    .video {
+       text-align: center;
+    }
+
 /*Redimensão da tela*/
         @media screen and (max-width: 1035px) {
         .quadrado_1 {
@@ -96,10 +100,15 @@ body {
            .corpocabecalho {
             display: block;
         }
+
+        .video {
+            width: 70%;
+            margin-left: 15%;
+        }
         }
 
         @media screen and (max-width: 700px) {
-            header {
+            header, .video {
             width: 100%;
             }
 
