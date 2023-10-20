@@ -16,7 +16,7 @@ margin-top: 30px;
 
 .corpocabecalho {
     display: inline;
-    padding: 40px;
+    padding: 20px;
     /*padding: 50px;*/
 }
 body {
@@ -84,7 +84,7 @@ body {
 /*Redimensão da tela*/
         @media screen and (max-width: 1035px) {
         header {
-            width: 99%;
+            width: 100%;
             margin: 0 auto;
         }
         
@@ -101,11 +101,11 @@ body {
             width: 84%;
             text-align: center;
             display: inline-block;
-            padding: 5px;
            }
 
            .corpocabecalho {
-            display: block;
+            width: 100%;
+            display: inline;
         }
 
         footer {
