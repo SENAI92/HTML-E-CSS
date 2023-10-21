@@ -62,11 +62,6 @@ body {
         margin-top: 10px;
     }
 
-    .tabela {
-        list-style: none;
-        padding: 10px;
-    }
-
     .tabela2 {
         display: inline-block;
         margin: 0 60px;
@@ -125,6 +120,7 @@ body {
 
             .video {
                 width: 100%;
+                margin: 0 auto;
             }
 
             .quadrado_1 {
@@ -140,9 +136,65 @@ body {
                 width: 85%;
                 margin: 0 auto;
             }
+
             .tabela2 {
-                width: 50%;
+               text-align: center;
+               font-size: 90%;
+               margin: 0 auto;
+            }
+            
+        }
+
+        @media screen and (max-width: 643px) {
+            footer {
+                width: 83%;
+            }
+
+            .tabela2 {
                 text-align: center;
-                padding: 5px;
+                font-size: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 587px) {
+            .corpocabecalho {
+                width: 60%;
+                display: inline-block;
+                padding: 0 10px;
+                margin: 0 auto;
+            }
+            
+            footer {
+                width: 80%;
+            }
+
+            .tabela2 {
+                text-align: center;
+                font-size: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            
+            sheader {
+                width: 100%;
+                font-size: 100%;
+            }
+
+            .corpocabecalho {
+                width: 100%;
+                margin: 0 auto;
+                text-align: justify;
+            }
+
+            body {
+                width: 94%;
+            }
+
+            footer {
+                width: 67%;
+                margin: 0 auto;
             }
         }
