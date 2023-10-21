@@ -177,24 +177,21 @@ body {
         }
 
         @media screen and (max-width: 320px) {
-            
-            sheader {
-                width: 100%;
-                font-size: 100%;
-            }
 
             .corpocabecalho {
-                width: 100%;
+                width: 60%;
                 margin: 0 auto;
                 text-align: justify;
             }
 
             body {
                 width: 94%;
+                font-size: 80%;
             }
 
             footer {
-                width: 67%;
+                width: 65%;
                 margin: 0 auto;
+                text-align: justify;
             }
         }
