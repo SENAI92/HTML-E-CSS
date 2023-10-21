@@ -73,7 +73,9 @@ body {
     }
 
     .video {
-       text-align: center;
+       width: 100%;
+       height: 400px;
+       margin: 0 auto;
     }
 
 /*Redimensão da tela*/
