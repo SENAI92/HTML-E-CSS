@@ -1,258 +1,200 @@
-<!DOCTYPE html>
-<html lang="pt-BR"> <!--Tag para dizer qual é a linguagem do site-->
+header {
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 190%;
+}
 
-<head> <!--Cabeça do site-->
-    <meta charset="UTF-8"> <!--Tag que ajusta o padrão do Brasil, para não ter problemas com acentuações-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Tag que ajusta o site nas telas de celulares-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Olá! Esse é o meu primeiro site!!!"> <!--Tag que diz a descrição do seu site-->
-    <meta name="keywords" content="HTML,CSS,O que é?, Como funciona?, Função"> <!--Tag para procurar palavras chaves na hora de pesquisar no google-->
-    <meta name="author" content="Gustavo Amorim da Rocha"> <!--Tag para dizer quem criou o site, quem é o lider-->
-    <title>HTML X CSS</title> <!--Principal titulo da guia/aba-->
-    <link rel="stylesheet" type="text/css" href="style.css" /> <!--Implementei um arquivo .css para usar futuramente-->
-    
+.imagens {
+    width: 100%;
+}
+.cabecalho {
+list-style: none;
+margin-top: 30px;
+}
 
-</head> <!--Fechamento da cabeça-->
+.corpocabecalho {
+    display: inline;
+    padding: 20px;
+    /*padding: 50px;*/
+}
+body {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
 
-<body> <!--Cabeça do site-->
-<main>
+}
 
-<header>
-    <section>
-    <h1>HTML X CSS</h1>
-<div class="imagens">
-    <img src="https://i.imgur.com/VTreKsJ.png" width="140" class="imagem" alt="Html_logo" title="Html_logo">
-    <img src="https://i.imgur.com/an8qTbr.png" width="100" class="ajeitamento" alt="Css_logo">
-</div>
-    </section>
-    <nav>
-        <ul class="cabecalho">
-                <li class="corpocabecalho"><a href="#">Sobre nós</a></li>
-                <li class="corpocabecalho"><a href="cadastro.html">Cadastrar-se</a></li>
-                <li class="corpocabecalho"><a href="login.html">Login</a></li>
-                <li class="corpocabecalho"><a href="#">Atendimento</a></li>
-        </ul>
-    </nav>
-</header>
+  /*Alinhamentos das imagens*/
+    .imagem {
+        text-align: center;
+        width: 15%;
+    }
 
-    <article>
-<!--Quadrado 1 logo abaixo-->
+    .img-container {
+        text-align: center;
+    }
+    .ajeitamento {
+        text-align: center;
+        width: 11%;
+    }
 
-<section class="quadrado_1">
+  /*Quadrado 1 do site*/
+       .quadrado_1 {
+    width: 1000px; /*Largura do quadrado*/
+    height: auto; /*Altura do quadrado*/
+    background-color: steelblue; /*Cor do fundo do quadrado*/
+    border: 5px solid steelblue; /*Tipo da borda da linha*/
+    border-radius: 20px; /*Bordas da forma geométrica*/
+    margin: 30px auto; /*Margem do quadrado*/
+    margin-bottom: 20px; /* Espaçamento entre os quadrados */
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
 
-<br/>
+    /*Rodapé responsivo*/
+    footer {
+        background-color: rgb(69, 69, 71);
+        padding: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
 
-        <div class="img-container">
-        <img src="https://i.imgur.com/VTreKsJ.png" alt="HTML5" width="350">
-        </div>
+    .tabela2 {
+        display: inline-block;
+        margin: 0 60px;
+    }
 
-        <h2>O que é?</h2>
+    a {
+        color: slategrey;
+        text-decoration: none;
+    }
 
-        <p>
-        O <strong>HTML (HyperText Markup Language)</strong> é o componente básico de um site, onde se forma toda a sua <strong>estrutura</strong>, é onde se organiza todas as categorias do site deis de <strong>cabeçalhos, rodapés, títulos, parágrafos</strong> e entre outros conceitos. A sigla <strong>HTML em português fica “Linguagem de Marcação Hipertexto”</strong>, ou seja, o HTML não é uma linguagem de programação e sim de marcação onde permite inserir conteúdos e estabelecer a estrutura básica do site.
+    .video {
+       text-align: center;
+    }
 
-        <h3>Exemplo de HTML:</h3>
-
-        <div class="img-container">
-            <img src="https://i.imgur.com/pPeMYzs.png" width="400" alt="Esqueleto_HTML">
-        </div>
-
-        <h2>Como funciona?</h2>
-
-        <p>O <strong>HTML</strong> funciona da seguinte maneira, ele precisa da tag <strong>HTML que fica acima de todos, a cabeça (head) e o corpo (body) essas são as principais tags</strong> que são utilizadas para a estrutura de um site em HTML.</p>
-<br/>
-        <div class="img-container">
-        <img src="https://i.imgur.com/QdQB4Et.png" width="500" alt="Estrutura_de_um_site">
-        </div>
-
-        <h2>Como são feito os códigos HTML?</h2>
-
-        <p>Os códigos em <strong>HTML</strong> eles são compostos por <strong>TAGS que são fechadas por &lt; &gt;, a partir dessas tags conseguimos usar a linguagem para a criação de títulos, cabeçalhos, rodapés e etc.</strong></p>
-
-<br/>
-
-        <div class="img-container">
-        <img src="https://i.imgur.com/kkfPFuu.png" width="500" alt="Codigos_html">
-        </div>
-
-<br/>
-
-        <h2>Principais tags do HTML</h2>
-
-        <p>As principais tags do html estão listadas abaixo:</p>
-
-    <ul>
-        <li>&lt;DOCTYPE html&gt;/&lt;/html&gt; - <strong>Significa que a sua página será no formato HTML5</strong></li>
-        <li>&lt;head&gt;/&lt;/head&gt; - <strong>a área onde ficarão as tags mais importantes.</strong></li>
-        <li>&lt;body&gt;/&lt;/body&gt; - <strong>a estrutura do seu site.</strong></li>
-        <li>&lt;h1&gt;//&lt;h1&gt; - <strong>Cria um título.</strong></li>
-        <li>&lt;h2&gt;/&lt;/h2&gt; - <strong>um subtítulo.</strong></li>
-        <li>&lt;p&gt;/&lt;/p&gt; - <strong>Começara um novo parágrafo.</strong></li>
-        <li>&lt;b&gt;/&lt;/b&gt; - <strong>Deixa em negrito o que estiver dentro dela.</strong></li>
-    </ul>
-    
-<br/>
+/*Redimensão da tela*/
+        @media screen and (max-width: 1035px) {
+        header {
+            width: 100%;
+            margin: 0 auto;
+        }
         
-        <h2>Vantagens do HTML</h2>
+            .quadrado_1 {
+        width: 97%;
+        margin: 0 auto;
+           }
 
-        <p>A vantagem de se usar o <strong>HTML</strong> é que a partir dele você consegue dar a <strong>estrutura esquelética do seu site</strong>, colocando <strong>títulos, parágrafos, imagens, vídeos e entre outros</strong>.</p>
+           img {
+            width: 40%;
+           }
 
-        <h2>Conclusão</h2>
+           .tabela2 {
+            width: 84%;
+            text-align: center;
+            display: inline-block;
+           }
 
-        <p>E essa foi a conclusão que chegamos sobre o HTML, espero muito que você tenha gostado de conhecer um pouco sobre o HTML e espero você logo abaixo para conhecer o CSS! Caso você queira saber mais sobre o HTML recomendamos fortemente que veja a playlist do Curso em Vídeo do <strong>Gustavo Guanabara</strong> logo abaixo.</p>
+           .corpocabecalho {
+            width: 100%;
+            display: inline;
+        }
 
-        <h2 style="text-align: center;">Curso em Vídeo</h2>
-<div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=BDIvNtkcVjCkSYLJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+        footer {
+            width: 88%;
+            margin: 0 auto;
+        }
+        .video {
+            width: 100%;
+            margin: 0 auto;
+        }
+        }
 
-<br/>
-<br/>
-<br/>
-        <div class="img-container">
-        <img src="https://i.imgur.com/an8qTbr.png" width="350" alt="Css_logo">
-        </div>
+        @media screen and (max-width: 795px) {
+            header {
+            width: 100%;
+            }
 
-        <h2>O que é?</h2>
+            .video {
+                width: 100%;
+                margin: 0 auto;
+            }
 
-        <p>Como foi dito anteriormente o <strong>HTML é a estrutura de um site</strong>, já o <strong>CSS (Cascading Style Sheets)</strong> ele vem para <strong>complementar o HTML</strong>, ou seja, ele vai <strong>estilizar os elementos escritos em HTML, ou seja, ele é a parte da decoração do seu site, dar cor e vida ao seu site</strong>.
-<br/>
-<br/>
-        Como <strong>HTML</strong> tem a sua própria sigla o <strong>CSS</strong> também tem a sua, em português ela fica <strong>“Folha de Estilo em Cascatas”</strong>, como dito anteriormente <strong>ele é o que vai dar cor ao seu site</strong>.
-        </p>
+            .quadrado_1 {
+                width: 98%;
+                margin: 0 auto;
+            }
 
-        <h3>Exemplo de CSS:</h3>
+            img {
+                width: 60%;
+            }
 
-        <div class="img-container">
-        <h3>HTML PURO</h3>
-        <img src="https://i.imgur.com/qLSgdm9.png" width="500" alt="Site_html_puro_exemplo_01">
-<br/>
-        <h3>CSS IMPLEMENTADO</h3>
-<br/>
-        <img src="https://i.imgur.com/dth8cqn.png" width="500" alt="Site_css_exemplo_02">
-        </div>
+            footer {
+                width: 85%;
+                margin: 0 auto;
+            }
 
-        <h2>Como funciona</h2>
+            .tabela2 {
+               text-align: center;
+               font-size: 90%;
+               margin: 0 auto;
+            }
+            
+        }
 
-        <p>O <strong>CSS (Cascading Style Sheets)</strong> ele funciona de maneira que você consiga <strong>alterar o layout de uma página rapidamente</strong>, definindo cores e fontes por exemplo. Não só isso, ele também ajuda a <strong>diminuir a repetição de conteúdo na estrutura do código</strong>, e ele trabalha em conjunto com o <strong>HTML, permitindo várias criatividades de design em layout</strong>.</p>
+        @media screen and (max-width: 643px) {
+            footer {
+                width: 83%;
+            }
 
-        <h2>Códigos CSS</h2>
+            .tabela2 {
+                text-align: center;
+                font-size: 90%;
+                margin: 0 auto;
+            }
+        }
 
-        <p>Os códigos em <strong>CSS são usados para dar estilo a sua página de site</strong>, eles não são complicados, precisa de um pouco de criatividade e então você consegue deixar sua página web muito mais bonita visualmente.</p>
+        @media screen and (max-width: 587px) {
+            .corpocabecalho {
+                width: 60%;
+                display: inline-block;
+                padding: 0 10px;
+                margin: 0 auto;
+            }
+            
+            footer {
+                width: 80%;
+            }
 
-        <h3>Exemplo de código CSS implementado no HTML:</h3>
+            .tabela2 {
+                text-align: center;
+                font-size: 90%;
+                margin: 0 auto;
+            }
+        }
 
-<br/>
+        @media screen and (max-width: 320px) {
+            
+            sheader {
+                width: 100%;
+                font-size: 100%;
+            }
 
-        <div class="img-container">
-        <img src="https://i.imgur.com/sWRYsyg.png" width="600" alt="Codigos_css">
-        </div>
+            .corpocabecalho {
+                width: 100%;
+                margin: 0 auto;
+                text-align: justify;
+            }
 
-<br/>
+            body {
+                width: 94%;
+            }
 
-        <h2>Principais configurações do CSS</h2>
-
- 
-        <p>As configurações do <strong>são divididas em </strong>3 categorias: <strong>CSS Inline, CSS Interno Externo</strong>.
-<br/>
-<br/>
-
-        <h3>CSS Interno</h3>
-
-        <p>No <strong>CSS Interno</strong> é utilizado as tags <strong>&lt;style&gt; na seção &lt;head&gt; de seu arquivo HTML</strong>, esse estilo de <strong>CSS é muito efetivo para estilizar logo de vez uma única página</strong> a única <strong>desvantagem</strong> é que sua página após carrega-lá ela irá demorar um pouco mais.</p>
-
-        <h3>Exemplo de comando CSS Interno:</h3>
-<br/>
-        <div class="img-container">
-            <img src="https://i.imgur.com/H5jaO4L.png" alt="Css_interno">
-        </div>
-
-<br/>
-
-        <h2>CSS Externo</h2>
-
-        <p>O <strong>CSS Externo</strong> ele usa <strong>outra página para estilizar a página web com um arquivo .css</strong> esse tipo de método, é para estilizar um <strong>grande site</strong>.</p>
-
-        <h3>Exemplo de CSS Externo em um arquivo linkado em um arquivo .html:</h3>
-
-<br/>
-
-        <div class="img-container">
-        <img src="https://i.imgur.com/MdW8b5u.png" alt="Css_externo">
-        </div>
-
-        <h2>CSS Inline</h2>
-
-        <p>O <strong>CSS Inline</strong>, ele trabalha com as tags <strong> &lt;style&gt; para fazer a estilização de certas frases especificas que você quer estilizar no arquivo .html</strong>.</p>
-
-        <h3>Veja um exemplo de quando é usado a tag &lt;style&gt; em um arquivo HTML:</h3>
-
-<br/>
-
-        <div class="img-container">
-        <img src="https://i.imgur.com/7jPvj08.png" alt="Css_inline">
-        </div>
-
-        <h2>Vantagens do CSS</h2>
-
-        <p>As vantagens de usar o <strong>CSS são inúmeras e totalmente perceptíveis</strong>, quando olhamos por exemplo para um <strong>site que usa HTML sem a implementação do CSS</strong> a percepção é nítida pois um site não vai ter <strong>cor e vida</strong>, já o outro vai ter vida e cor.</p>
-
-        <h2>Conclusão</h2>
-
-        <p>E essa foi a <strong>conclusão que chegamos ao CSS</strong>, com ele conseguimso dar a vida ao nosso site, inserindo designers fazendo ele ficar com uma cara muito bonita! Caso queira estudar um pouco mais a fundo o CSS veja video do <strong>Gustavo Guanabara logo abaixo.</strong></p>
-
-        <h2 style="text-align: center;">Curso em Video</h2>
-
-        <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vPNIAJ9B4hg?si=BB5OMKEwu2U28JzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
-        <div class="img-container">
-        <img src="https://i.imgur.com/Sg2NMas.png" width="350" alt="Like">
-        </div>
-
-        <h2>Como funciona?</h2>
-
-        <p><strong>O HTML e o CSS funciona em conjunto, como</strong>? Simples o <strong>HTML é somente a estrutura do seu site</strong>, o <strong>corpo esquelético</strong>, já o <strong>CSS é a pele  do seu site</strong>, o que vai deixar mais bonito e dar um desing bonito.</p>
-
-        <h2>Exemplo de HTML e CSS:</h2>
-
-        <div class="img-container">
-        <img src="https://i.imgur.com/Dphywor.png" style="width: 65%;" alt="Exemplo_html">
-        </div>
-
-<br/>
-
-        <div class="img-container">
-        <img src="https://i.imgur.com/WGY1NH3.png" width="640" alt="Exemplo_css">
-        </div>
-
-    </section>
-    </article>
-<br/>
-<br/>
-
-<!--Rodapé responsivo-->
-<section>
-        <nav>
-         <footer>
-
-                <ul>
-                        <li class="tabela2"><a href="#">Termos de uso</a></li>
-                        <li class="tabela2"><a href="#">Política de privacidade</a></li>
-                        <li class="tabela2"><a href="#">Sobre nós</a></li>
-                        <li class="tabela2"><a href="#">Contato</a></li>
-                </ul>
-
-                <p>&copy;2023 - Todos os direitos reservados</p>
-
-         </footer>
-        </nav>
-</section>
-</main>
-</body>
-</html>
-
-<!--COMANDOS CHAVES
-O comando &lt cria < e o comando &gt cria >, usado para não executar certas tags.
--->
+            footer {
+                width: 67%;
+                margin: 0 auto;
+            }
+        }
