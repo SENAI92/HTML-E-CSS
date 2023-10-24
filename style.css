@@ -16,7 +16,7 @@ margin-top: 30px;
 
 .corpocabecalho {
     display: inline;
-    padding: 20px;
+    padding: 30px;
     /*padding: 50px;*/
 }
 body {
@@ -84,6 +84,7 @@ body {
             width: 100%;
             margin: 0 auto;
         }
+
         
             .quadrado_1 {
         width: 97%;
@@ -103,6 +104,11 @@ body {
            .corpocabecalho {
             width: 100%;
             display: inline;
+            
+        }
+
+        .icones {
+            width: 30px;
         }
 
         footer {
@@ -123,6 +129,10 @@ body {
             .video {
                 width: 100%;
                 margin: 0 auto;
+            }
+
+            .icones {
+                width: 30px;
             }
 
             .quadrado_1 {
@@ -156,6 +166,10 @@ body {
                 text-align: center;
                 font-size: 90%;
                 margin: 0 auto;
+            }
+
+            .icones {
+                width: 30px;
             }
         }
 
