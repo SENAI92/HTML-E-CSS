@@ -15,7 +15,7 @@ body {
     background-color: whitesmoke;
     border-radius: 20px;
     width: 30%;
-    height: 700px;
+    height: 600px;
     margin: 0 auto;
     margin-top: 5%;
     
@@ -24,13 +24,9 @@ body {
 .logando {
     border: solid white;
     border-radius: 20px;
-    width: 90%;
+    width: 95%;
     padding: 10px;
-    margin-left: 10px;
-}
-
-.esqueceu {
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 .botao {
@@ -43,12 +39,12 @@ body {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 1200px) {
  .login {
     width: 100%;
-    border: solid white;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 30%;
+    margin: 1 auto;
 }
 
 .logando {
@@ -64,4 +60,31 @@ body {
 .botao {
     width: 50%;
 }
+
+@media screen and (max-width: 350px) {
+    .login {
+        width: 155%;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 100%;
+    }
+
+    .titulo {
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .esqueceu {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20%;
+    }
+
+    .botao {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
+}
+    
