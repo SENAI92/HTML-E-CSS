@@ -11,14 +11,14 @@ body {
 }
 
 section {
-margin-top: 15%;
+margin-top: 10%;
 border: solid whitesmoke;
 background-color: whitesmoke;
 border-radius: 20px;
 width: 90%;
 height: 450px;
 text-align: center;
-margin-left: 70px;
+margin-left: 5%;
 }
 
 .email {
@@ -43,7 +43,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 @media screen and (max-width: 1430px) {
     section {
         width: 70%;
-        margin-top: 20%;
+        margin-top: 2%;
         margin-left: 15%;
         text-align: center;
     } 
@@ -51,7 +51,44 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     @media screen and (max-width: 900px) {
         section {
             width: 70%;
-            margin-top: 45%;
+            margin-top: 5%;
         }
     }
+}
+
+@media screen and  (max-width: 500px) {
+    section {
+        width: 70%;
+        margin-top: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    section {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 15%;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .enviar {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .email {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    section {
+        width: 95%;
+    }
+    
 }
