@@ -1,26 +1,50 @@
 header {
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 20px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 190%;
+    font-size: 170%;
+    height: 280px;
 }
 
-.imagens {
-    width: 100%;
+.titulodocab {
+    font-size:150%;
+    margin: 0px;
 }
+
+.imagemkk {
+    width: 20%;
+    float: left;
+    position: static;
+    
+}
+
+.ajeitamentok {
+width: 20%;
+float: right;
+position: static;
+height: 0px;
+}
+
 .cabecalho {
 list-style: none;
-margin-top: 30px;
+margin-top: 40px;
+margin: 9%;
+text-align: center;
+padding: 5px;
 }
 
 .corpocabecalho {
     display: inline;
     padding: 30px;
+    margin: 10px;
+    width: 50%;
+    ;
+ 
     /*padding: 50px;*/
 }
 body {
-    background-color: skyblue;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
 
@@ -34,6 +58,7 @@ body {
 
     .img-container {
         text-align: center;
+
     }
     .ajeitamento {
         text-align: center;
@@ -44,8 +69,8 @@ body {
        .quadrado_1 {
     width: 1000px; /*Largura do quadrado*/
     height: auto; /*Altura do quadrado*/
-    background-color: steelblue; /*Cor do fundo do quadrado*/
-    border: 5px solid steelblue; /*Tipo da borda da linha*/
+    background-color: whitesmoke; /*Cor do fundo do quadrado*/
+    border: 5px solid whitesmoke; /*Tipo da borda da linha*/
     border-radius: 20px; /*Bordas da forma geométrica*/
     margin: 30px auto; /*Margem do quadrado*/
     margin-bottom: 20px; /* Espaçamento entre os quadrados */
