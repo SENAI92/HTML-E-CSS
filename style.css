@@ -32,6 +32,7 @@ margin-top: 40px;
 margin: 9%;
 text-align: center;
 padding: 5px;
+float: center;
 }
 
 .corpocabecalho {
@@ -129,7 +130,7 @@ body {
            .corpocabecalho {
             width: 100%;
             display: inline;
-            
+            padding: 0 10px;
         }
 
         .icones {
@@ -149,8 +150,13 @@ body {
         @media screen and (max-width: 795px) {
             header {
             width: 100%;
+            height: 20%;
             }
 
+            .corpocabecalho {
+                display: flow-root;
+                padding: 0 10px;
+            }
             .video {
                 width: 100%;
                 margin: 0 auto;
@@ -163,6 +169,7 @@ body {
             .quadrado_1 {
                 width: 98%;
                 margin: 0 auto;
+                margin-top: 20%;
             }
 
             img {
@@ -187,6 +194,17 @@ body {
                 width: 83%;
             }
 
+            .quadrado_1 {
+                margin-top: 20%;
+            }
+
+            .corpocabecalho {
+                font-size: 90%;
+                display: flow-root;
+                margin: 0 auto;
+                padding: 0 10px;
+            }
+
             .tabela2 {
                 text-align: center;
                 font-size: 90%;
@@ -206,6 +224,10 @@ body {
                 margin: 0 auto;
             }
             
+            .quadrado_1 {
+                margin-top: 20%;
+            }
+
             footer {
                 width: 80%;
             }
@@ -217,12 +239,32 @@ body {
             }
         }
 
+        @media screen and (max-width: 470px) {
+            header {
+                width: 100%;
+            }
+
+            .corpocabecalho {
+                text-align: center;
+                width: 100%;
+            }
+
+            .quadrado_1 {
+                margin-top: 20%;
+            }
+        }
+
         @media screen and (max-width: 320px) {
 
             .corpocabecalho {
-                width: 60%;
+                width: 100%;
                 margin: 0 auto;
-                text-align: justify;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            header {
+                width: 100%;
             }
 
             body {
