@@ -1,0 +1,29 @@
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 220%;
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.caixinha {
+    margin: 1%;
+    border: solid white;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.botao {
+    width: 20%;
+    background-color: white;
+}
